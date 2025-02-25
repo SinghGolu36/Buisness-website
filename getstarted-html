@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Started - SinghGdesigner</title>
-    <link rel="stylesheet" href="style.css"> <!-- Same CSS file ko link karna hai -->
+    <title>Get Started - SinghGDesigner</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <div class="logo">SinghGdesigner</div>
+        <div class="logo">SinghGDesigner</div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,15 +20,30 @@
         </nav>
     </header>
 
-    <section>
-        <h1>Welcome to SinghGdesigner</h1>
-        <p>We help you grow your business with professional and affordable websites.</p>
-        <a href="contact.html" class="btn">Contact Us</a>
+    <section class="hero">
+        <h1>Get Started with SinghGDesigner</h1>
+        <p>Fill out the form below to begin your journey with us!</p>
+    </section>
+
+    <section class="form-section">
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Requirements:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <footer>
-        © 2025 SinghGdesigner
+        <p>© 2025 SinghGDesigner. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
 <link rel="stylesheet" href="style.css">
